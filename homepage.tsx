@@ -1,5 +1,5 @@
 function greet(name: string): string {
-    return `Hello, ${name}! Welcome to your TypeScript app.`;
+    return `Greetings, ${name}! Welcome to James Paul Healy's website.`;
 }
 
 const messageElement = document.getElementById('message');
