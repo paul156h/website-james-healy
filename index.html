@@ -8,8 +8,13 @@
 </head>
 <body>
     <h1>Welcome to my website for class</h1>
-    <p id="message"></p>
-
-    <script src="dist/homepage.tsx"></script>
+    <p id="message">Click the button</p>
+    <button onclick="displayMessage()">Click</button>
+    <script>
+        function displayMessage() {
+            const message = document.getElementById("message");
+            message.textContent = "Hello world!";
+        }
+    </script>
 </body>
 </html>
